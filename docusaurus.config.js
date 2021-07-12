@@ -6,7 +6,7 @@ const math = require('remark-math');
 const katex = require('rehype-katex');
 
 module.exports = {
-  trailingSlash: true,
+  // trailingSlash: true,
   i18n: {
     defaultLocale: 'ja',
     locales: ['ja'],

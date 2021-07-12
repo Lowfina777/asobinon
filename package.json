@@ -1,9 +1,9 @@
 {
   "name": "asobinon",
-  "version": "0.5.9",
+  "version": "0.6.0",
   "private": true,
   "author": "sasigume",
-  "homepage": "https://asobinon.org/",
+  "homepage": "https://asobinon.org",
   "repository": {
     "url": "https://github.com/sasigume/asobinon"
   },
