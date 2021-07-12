@@ -69,7 +69,7 @@ function DocItem(props: Props): JSX.Element {
             [styles.docItemCol]: !hideTableOfContents,
           })}
         >
-          <DocVersionSuggestions />
+          {/* <DocVersionSuggestions /> */}
           <div className={styles.docItemContainer}>
             <article>
               {showVersionBadge && (
