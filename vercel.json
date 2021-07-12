@@ -1,4 +1,5 @@
 {
+  "cleanUrls": true,
   "redirects": [
     { "source": "/docs/(.+?)", "destination": "/$1" },
     {
