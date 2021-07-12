@@ -26,3 +26,8 @@ We are currently supporting Japanese language only. (Sorry, but admin is not goo
 ## Contributersとは
 
 誰でもプルリクエストできますが、特別に直接レポジトリにプッシュできるメンバーを「Contributers」の一覧に表示されます。参加申請はIssueまでどうぞ。
+
+## Special Thanks
+
+### Utterance導入
+https://younho9.dev/docusaurus-manage-docs-2

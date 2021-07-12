@@ -1,3 +1,6 @@
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 
 const THEME_COLOR = '#ff3f00';
@@ -6,7 +9,6 @@ const math = require('remark-math');
 const katex = require('rehype-katex');
 
 module.exports = {
-  // trailingSlash: true,
   i18n: {
     defaultLocale: 'ja',
     locales: ['ja'],
@@ -31,18 +33,6 @@ module.exports = {
     gtag: {
       trackingID: 'G-B8WX467VDF',
     },
-    metadatas: [
-      {
-        property: 'og:image',
-        content: 'https://asobinon.org/ogp/ogp-1200x630.png',
-      },
-      { name: 'twitter:card', content: 'summary_large_image' },
-      {
-        name: 'twitter:image',
-        content: 'https://asobinon.org/ogp/ogp-1200x630.png',
-      },
-      { name: 'twitter:site', content: '@asobinon' },
-    ],
     navbar: {
       hideOnScroll: true,
       title: 'ASOBINON',
@@ -171,6 +161,10 @@ module.exports = {
       ],
       copyright: `当サイトのソースコード・文章はMITライセンスで配布されていますが、リンク先や画像はライセンスの範囲外です。文章内に著作物が含まれている場合は削除、運営への通報をお願いします。Built with Docusaurus.`,
     },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
   },
   presets: [
     [
@@ -229,7 +223,7 @@ module.exports = {
       crossorigin: 'anonymous',
     },
   ],
-  themes: ['@saucelabs/theme-github-codeblock'],
+  // themes: ['@saucelabs/theme-github-codeblock'],
   plugins: [
     [
       '@docusaurus/plugin-pwa',

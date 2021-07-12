@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates. This file is modified by sasigume.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -7,12 +7,8 @@
 
 import React, { useState, useCallback, useEffect, useRef, memo } from 'react';
 import clsx from 'clsx';
-import {
-  useThemeConfig,
-  isSamePath,
-  usePrevious,
-  useAnnouncementBar,
-} from '@docusaurus/theme-common';
+import { useThemeConfig, isSamePath } from '@docusaurus/theme-common';
+import useUserPreferencesContext from '@theme/hooks/useUserPreferencesContext';
 import useLockBodyScroll from '@theme/hooks/useLockBodyScroll';
 import useWindowSize, { windowSizes } from '@theme/hooks/useWindowSize';
 import useScrollPosition from '@theme/hooks/useScrollPosition';
@@ -26,11 +22,17 @@ import IconExternalLink from '@theme/IconExternalLink';
 import { translate } from '@docusaurus/Translate';
 
 import styles from './styles.module.css';
-
-// added by sasigume
 import HowtoEditButton from '../../components/common/howto-edit-button';
 
 const MOBILE_TOGGLE_SIZE = 24;
+
+function usePrevious(value) {
+  const ref = useRef(value);
+  useEffect(() => {
+    ref.current = value;
+  }, [value]);
+  return ref.current;
+}
 
 const isActiveSidebarItem = (item, activePath) => {
   if (item.type === 'link') {
@@ -117,7 +119,6 @@ function DocSidebarItemCategory({ item, onItemClick, collapsible, activePath, ..
         'menu__list-item--collapsed': collapsed,
       })}
     >
-      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         className={clsx('menu__link', {
           'menu__link--sublist': collapsible,
@@ -125,7 +126,7 @@ function DocSidebarItemCategory({ item, onItemClick, collapsible, activePath, ..
           [styles.menuLinkText]: !collapsible,
         })}
         onClick={collapsible ? handleItemClick : undefined}
-        href={collapsible ? '#' : undefined}
+        href={collapsible ? '#!' : undefined}
         {...props}
       >
         {label}
@@ -191,10 +192,10 @@ function DocSidebarItemLink({
 }
 
 function useShowAnnouncementBar() {
-  const { isClosed } = useAnnouncementBar();
-  const [showAnnouncementBar, setShowAnnouncementBar] = useState(!isClosed);
+  const { isAnnouncementBarClosed } = useUserPreferencesContext();
+  const [showAnnouncementBar, setShowAnnouncementBar] = useState(!isAnnouncementBarClosed);
   useScrollPosition(({ scrollY }) => {
-    if (!isClosed) {
+    if (!isAnnouncementBarClosed) {
       setShowAnnouncementBar(scrollY === 0);
     }
   });
@@ -270,7 +271,7 @@ function ResponsiveSidebarButton({ responsiveSidebarOpened, onClick }) {
             })
       }
       aria-haspopup="true"
-      className="button button--secondary button--sm menu__button"
+      className={`button button--secondary button--sm menu__button ${styles.moveButton}`}
       type="button"
       onClick={onClick}
     >
@@ -299,7 +300,7 @@ function DocSidebar({
     navbar: { hideOnScroll },
     hideableSidebar,
   } = useThemeConfig();
-  const { isClosed: isAnnouncementBarClosed } = useAnnouncementBar();
+  const { isAnnouncementBarClosed } = useUserPreferencesContext();
 
   const { showResponsiveSidebar, closeResponsiveSidebar, toggleResponsiveSidebar } =
     useResponsiveSidebar();
