@@ -1,7 +1,4 @@
 {
-  "compilerOptions": {
-    "allowJs": true
-  },
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "include": ["src/"]
 }
