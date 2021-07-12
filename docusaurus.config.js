@@ -223,7 +223,7 @@ module.exports = {
       crossorigin: 'anonymous',
     },
   ],
-  // themes: ['@saucelabs/theme-github-codeblock'],
+  themes: ['@saucelabs/theme-github-codeblock'],
   plugins: [
     [
       '@docusaurus/plugin-pwa',
