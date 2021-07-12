@@ -270,7 +270,7 @@ function ResponsiveSidebarButton({ responsiveSidebarOpened, onClick }) {
             })
       }
       aria-haspopup="true"
-      className="button button--secondary button--sm menu__button"
+      className={`button button--secondary button--sm menu__button ${styles.moveButton}`}
       type="button"
       onClick={onClick}
     >
