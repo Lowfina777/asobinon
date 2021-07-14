@@ -1,6 +1,6 @@
 ---
 sidebar_position: 0
-slug: /minecraft-je/reference/command-je/
+slug: /minecraft-je/command/
 ---
 
 # Java Editon(Java版)の全コマンドの使い方一覧
