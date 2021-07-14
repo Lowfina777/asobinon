@@ -18,7 +18,8 @@ vi start.sh
 
 Vimを使うことになります。
 
-<b style="font-size:2rem;">Vimを使うことになります。</b>
+[[big]]
+|Vimを使うことになります。
 
 [[dl|Vimの使い方]]
 |<kbd>I</kbd>キーで編集(INSERT)モードになり、<kbd>Esc</kbd>で編集終わり、`:wq`で保存します。
