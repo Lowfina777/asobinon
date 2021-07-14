@@ -1,5 +1,6 @@
 ---
 title: ステップ3. ページ追加
+sidebar_label: ページ追加
 ---
 
 `docs`フォルダの中の、該当する場所に `.md` の拡張子でファイルを作ってください。
@@ -45,6 +46,7 @@ Markdownの中に「Front Matter」という部分を作ります。
 
 ---
 title: "これがタイトル"
+sidebar_label: "サイドバーに表示されるラベル"
 description: "これは説明"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 編集ガイドトップページ
 sidebar_position: 0
-slug: /ASOBINON/contribute/
+slug: /ASOBINON/edit
 ---
 
 このサイトは`Docusaurus`というドキュメント作成ツールを使っています。したがって、普通のWikiとは違った方法で編集をしないといけません。編集する前に、[CONTRIBUTING.md](https://github.com/sasigume/asobinon/blob/main/CONTRIBUTING.md) をご覧ください。
@@ -26,23 +26,19 @@ import YoutubeEmbed from '/src/components/youtube-embed'
 
 ### GitHubのサイトで編集する
 
-[こちら](./github-website/)をお読みください。
-
-### ローカルで編集する
-
-[こちら](./local/)をお読みください。
+[こちら](/ASOBINON/edit/github-website)をお読みください。
 
 ## 画像をアップする
 
-[こちら](./image/)をお読みください。
+[こちら](/ASOBINON/edit/image)をお読みください。
 
 ## Markdownガイド
 
-[こちら](./markdown/)をお読みください。
+[こちら](/ASOBINON/markdown)をお読みください。
 
 ## 編集を練習する
 
-[こちら](./test/)を使ってください。
+[こちら](/ASOBINON/test)を使ってください。
 
 ## ゲーム追加について
 

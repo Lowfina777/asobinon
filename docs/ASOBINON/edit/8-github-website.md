@@ -1,7 +1,6 @@
 ---
-title: GitHubサイト上で編集する
-slug: /ASOBINON/contribute/github-website/
-sidebar_position: 0
+title: ステップ8. GitHubサイト上で編集する
+sidebar_label: GitHubサイト上で編集
 ---
 
 

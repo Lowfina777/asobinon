@@ -1,5 +1,6 @@
 ---
 title: ステップ6. コミット、pushとPR
+sidebar_label: コミット、pushとPR
 ---
 
 ## commit

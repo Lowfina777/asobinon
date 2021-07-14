@@ -1,7 +1,6 @@
 ---
-slug: /ASOBINON/contribute/test/
-title: 編集練習ページ 目次
-sidebar_position: 0
+slug: /ASOBINON/test
+title: 編集の練習
 ---
 
 ## このセクションについて
