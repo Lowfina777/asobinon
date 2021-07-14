@@ -42,26 +42,26 @@ module.exports = {
       },
       items: [
         {
-          to: '/minecraft/',
+          to: '/minecraft',
           label: 'Minecraft (BE)',
           items: [
             {
-              to: '/minecraft/howto//',
+              to: '/minecraft/howto',
               label: 'ハウツー',
             },
             {
-              to: '/minecraft/addon/',
+              to: '/minecraft/addon',
               label: 'アドオン',
             },
             {
-              to: '/minecraft/seed/',
+              to: '/minecraft/seed',
               label: 'シード値',
             },
             {
-              to: '/minecraft/addon/',
+              to: '/minecraft/addon',
               label: 'アドオン',
             },
-            { to: '/minecraft/command/', label: 'コマンド' },
+            { to: '/minecraft/command', label: 'コマンド' },
           ],
         },
         {
@@ -69,12 +69,16 @@ module.exports = {
           label: 'Minecraft (JE)',
           items: [
             {
-              to: '/minecraft-je/howto/',
-              label: 'ハウツー',
-            },
-            {
               to: '/minecraft-je/mod/',
               label: 'MOD',
+            },
+            {
+              to: '/minecraft-je/command/',
+              label: 'コマンド',
+            },
+            {
+              to: '/minecraft-je/server/',
+              label: 'サーバー',
             },
           ],
         },
@@ -94,33 +98,16 @@ module.exports = {
           title: 'ゲーム',
           items: [
             {
-              to: '/minecraft/',
+              to: '/minecraft',
               label: 'Minecraft (BE)',
             },
             {
-              to: '/minecraft-je/',
+              to: '/minecraft-je',
               label: 'Minecraft (JE)',
             },
             {
-              to: '/hytale/',
+              to: '/hytale',
               label: 'Hytale',
-            },
-          ],
-        },
-        {
-          title: '編集ガイド',
-          items: [
-            {
-              to: '/ASOBINON/contribute/markdown/',
-              label: 'Markdownの書き方',
-            },
-            {
-              to: '/ASOBINON/contribute/image/',
-              label: '画像アップ方法',
-            },
-            {
-              to: '/ASOBINON/contribute/local/',
-              label: 'ローカルで編集する方法',
             },
           ],
         },
@@ -128,11 +115,19 @@ module.exports = {
           title: '特別なページ',
           items: [
             {
-              to: '/code-of-conduct/',
+              to: '/ASOBINON/edit',
+              label: '編集ガイド',
+            },
+            {
+              to: '/changelog',
+              label: '更新履歴',
+            },
+            {
+              to: '/code-of-conduct',
               label: '行動規範',
             },
             {
-              to: '/eula/',
+              to: '/eula',
               label: '利用規約',
             },
             {
@@ -144,10 +139,6 @@ module.exports = {
         {
           title: 'コミュニティ',
           items: [
-            {
-              label: 'Twitter',
-              href: `https://twitter.com/asobinon`,
-            },
             {
               label: 'Discord',
               href: `https://discord.gg/ASAXKMH`,
