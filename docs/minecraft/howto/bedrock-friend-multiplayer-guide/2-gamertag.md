@@ -1,4 +1,7 @@
-# ステップ2. ゲーマータグの変更
+---
+title:  ステップ2. ゲーマータグの変更
+sidebar_label: ゲーマータグの変更
+---
 
 ![](https://cdn-ak.f.st-hatena.com/images/fotolife/s/sasigume/20210208/20210208095105.png)
 
