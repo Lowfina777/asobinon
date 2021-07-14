@@ -17,7 +17,7 @@ https://github.com/sasigume/asobinon/blob/main/docs/ASOBINON/markdown/7-github-e
 すると以下のようにコードブロックが出ます。
 
 ```tsx reference
-https://github.com/sasigume/asobinon/blob/main/docs/ASOBINON/arkdown/7-github-embed.md
+https://github.com/sasigume/asobinon/blob/main/docs/ASOBINON/markdown/7-github-embed.md
 ```
 
 ## どうやってるの?
