@@ -1,7 +1,7 @@
 ---
 title: 編集ガイドトップページ
 sidebar_position: 0
-slug: /ASOBINON/edit
+slug: /ASOBINON/contribute
 ---
 
 このサイトは`Docusaurus`というドキュメント作成ツールを使っています。したがって、普通のWikiとは違った方法で編集をしないといけません。編集する前に、[CONTRIBUTING.md](https://github.com/sasigume/asobinon/blob/main/CONTRIBUTING.md) をご覧ください。
@@ -26,11 +26,11 @@ import YoutubeEmbed from '/src/components/youtube-embed'
 
 ### GitHubのサイトで編集する
 
-[こちら](/ASOBINON/edit/github-website)をお読みください。
+[こちら](./github-website)をお読みください。
 
 ## 画像をアップする
 
-[こちら](/ASOBINON/edit/image)をお読みください。
+[こちら](./image)をお読みください。
 
 ## Markdownガイド
 
