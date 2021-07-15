@@ -82,7 +82,7 @@ module.exports = {
             },
           ],
         },
-        { to: '/blog', label: 'ブログ' },
+        { to: '/ASOBINON/mcserver', label: 'マイクラサーバー' },
         {
           href: 'https://github.com/sasigume/asobinon',
           position: 'right',
@@ -139,6 +139,14 @@ module.exports = {
         {
           title: 'コミュニティ',
           items: [
+            {
+              label: 'マイクラサーバー',
+              to: `/ASOBINON/mcserver`,
+            },
+            {
+              label: 'Twitter',
+              href: `https://twitter/asobinon`,
+            },
             {
               label: 'Discord',
               href: `https://discord.gg/ASAXKMH`,
