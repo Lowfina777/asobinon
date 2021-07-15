@@ -4,9 +4,9 @@ sidebar_position: 0
 slug: /
 ---
 
-![](https://asobinon.org/ogp/ogp-1200x630.png)
-
 ## マイクラサーバー作ったよ
+
+[![](https://minecraft.jp/servers/mc.asobinon.org/banner/1/560x95.png)](https://minecraft.jp/servers/mc.asobinon.org)
 
 誰でも参加できるサバイバルサーバーです! **スマホでもJavaでも入れます！**
 
@@ -19,14 +19,14 @@ slug: /
 |ver|1.16.5~1.17.X|
 |人数|最大334人|
 
-
-
 ## Discord参加してね
 
 [![Discord](https://img.shields.io/discord/390466362373570561?label=公式サーバー&logo=discord&color=5865f2&logoColor=fff)](https://discord.gg/ASAXKMH)
 [https://discord.gg/ASAXKMH](https://discord.gg/ASAXKMH)
 
 ## アソビノンとは
+
+![](https://asobinon.org/ogp/ogp-1200x630.png)
 
 遊び + NONprofit = アソビノン。当サイトは、おそらく日本で初めての
 
