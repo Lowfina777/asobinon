@@ -1,5 +1,5 @@
 ---
-slag: /docs/2b2t/
+slag: /2b2t/
 title: 2b2t トップページ
 ---
 
